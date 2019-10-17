@@ -13,9 +13,10 @@
       this.entities = document.querySelectorAll('.julian-snake--orange');
     },
     tick: function () {
+      var that = this;
     // Don't call query selector in here, query beforehand.
     for (let i = 0; i < this.entities.length; i++) {
-      this.entities.getAttribute('material');
+      that.entities.getAttribute('material');
     }
   }
 
